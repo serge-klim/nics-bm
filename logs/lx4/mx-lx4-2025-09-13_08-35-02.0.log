@@ -1,0 +1,1178 @@
+[debug]  lo
+	00:00:00:00:00:00
+	127.0.0.1
+[debug]  enp6s0f1np1
+	08:BF:B8:05:53:90
+	192.168.13.2
+[debug]  ens8191f0np0
+	EC:0D:9A:98:B2:D2
+	192.168.13.31
+[debug]  enxbaa50f00c0b2
+	BA:A5:0F:00:C0:B2
+[debug]  ens8191f1np1
+	EC:0D:9A:98:B2:D3
+	192.168.13.32
+[debug]  enp64s0f0np0
+	B8:CE:F6:8C:E3:B4
+	192.168.13.22
+[debug]  enp64s0f1np1
+	B8:CE:F6:8C:E3:B5
+	192.168.13.23
+[debug]  wlx0013ef500a9c
+	00:13:EF:50:0A:9C
+	192.168.8.144
+[debug]  enp148s0f0np0
+	00:0F:53:63:4C:E0
+	192.168.13.41
+[debug]  enp148s0f1np1
+	00:0F:53:63:4C:E1
+	192.168.13.42
+[debug]  enp6s0f0np0
+	08:BF:B8:05:53:91
+	192.168.13.1
+[debug]  enp106s0f0np0
+	40:A6:B7:96:E7:A0
+	192.168.13.11
+[debug]  enp106s0f1np1
+	40:A6:B7:96:E7:A1
+	192.168.13.12
+[debug]  ens8191f1np1 (mlx5_pci) port: 0 - EC:0D:9A:98:B2:D3[192.168.13.32]
+{
+	svc_tx_n : 1
+	rx_flow_queues : 0
+	next_src_port : 5000 (0x1388)
+	rx_reconfig_hint : 65000 (0xfde8)
+	clock_hz : 156250449 (0x9503151)
+	info : {
+		min_mtu : 46 (0x2e)
+		max_mtu : 65535 (0xffff)
+		min_rx_bufsize : 32 (0x20)
+		max_rx_bufsize : 4294967295 (0xffffffff)
+		max_rx_pktlen : 65536 (0x10000)
+		max_lro_pkt_size : 65280 (0xff00)
+		max_rx_queues : 1024 (0x400)
+		max_tx_queues : 1024 (0x400)
+		max_mac_addrs : 128 (0x80)
+		max_hash_mac_addrs : 0
+		max_vfs : 0
+		max_vmdq_pools : 0
+		rx_offload_capa : 9621f:RTE_ETH_RX_OFFLOAD_VLAN_STRIP|RTE_ETH_RX_OFFLOAD_IPV4_CKSUM|RTE_ETH_RX_OFFLOAD_UDP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_LRO|RTE_ETH_RX_OFFLOAD_VLAN_FILTER|RTE_ETH_RX_OFFLOAD_SCATTER|RTE_ETH_RX_OFFLOAD_TIMESTAMP|RTE_ETH_RX_OFFLOAD_KEEP_CRC|RTE_ETH_RX_OFFLOAD_RSS_HASH
+		tx_offload_capa : c96af:RTE_ETH_TX_OFFLOAD_VLAN_INSERT|RTE_ETH_TX_OFFLOAD_IPV4_CKSUM|RTE_ETH_TX_OFFLOAD_UDP_CKSUM|RTE_ETH_TX_OFFLOAD_TCP_CKSUM|RTE_ETH_TX_OFFLOAD_TCP_TSO|RTE_ETH_TX_OFFLOAD_OUTER_IPV4_CKSUM|RTE_ETH_TX_OFFLOAD_VXLAN_TNL_TSO|RTE_ETH_TX_OFFLOAD_GRE_TNL_TSO|RTE_ETH_TX_OFFLOAD_GENEVE_TNL_TSO|RTE_ETH_TX_OFFLOAD_MULTI_SEGS|RTE_ETH_TX_OFFLOAD_UDP_TNL_TSO|RTE_ETH_TX_OFFLOAD_IP_TNL_TSO
+		rx_queue_offload_capa : 9601f:RTE_ETH_RX_OFFLOAD_VLAN_STRIP|RTE_ETH_RX_OFFLOAD_IPV4_CKSUM|RTE_ETH_RX_OFFLOAD_UDP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_LRO|RTE_ETH_RX_OFFLOAD_SCATTER|RTE_ETH_RX_OFFLOAD_TIMESTAMP|RTE_ETH_RX_OFFLOAD_KEEP_CRC|RTE_ETH_RX_OFFLOAD_RSS_HASH
+		tx_queue_offload_capa : 0
+		reta_size : 512 (0x200)
+		rss_algo_capa : 1
+		flow_type_rss_offloads : 134459324 (0x803afbc)
+		default_rxconf : {
+			rx_thresh : {
+				pthresh : 0
+				hthresh : 0
+				wthresh : 0
+			}
+			rx_free_thresh : 0
+			rx_drop_en : 0
+			rx_deferred_start : 0
+			rx_nseg : 0
+			share_group : 0
+			share_qid : 0
+			offloads : 0
+			rx_nmempool : 0
+		}
+		default_txconf : {
+			tx_thresh : {
+				pthresh : 0
+				hthresh : 0
+				wthresh : 0
+			}
+			tx_rs_thresh : 0
+			tx_free_thresh : 0
+			tx_deferred_start : 0
+			offloads : 0
+		}
+		vmdq_queue_base : 0
+		vmdq_queue_num : 0
+		vmdq_pool_base : 0
+		rx_desc_lim : {
+			nb_max : 32768 (0x8000)
+			nb_min : 0
+			nb_align : 1
+			nb_seg_max : 65535 (0xffff)
+			nb_mtu_seg_max : 65535 (0xffff)
+		}
+		tx_desc_lim : {
+			nb_max : 32768 (0x8000)
+			nb_min : 0
+			nb_align : 1
+			nb_seg_max : 40 (0x28)
+			nb_mtu_seg_max : 40 (0x28)
+		}
+		speed_capa : 1312 (0x520)
+		nb_rx_queues : 0
+		nb_tx_queues : 0
+		default_rxportconf : {
+			burst_size : 1
+			ring_size : 256 (0x100)
+			nb_queues : 1
+		}
+		default_txportconf : {
+			burst_size : 1
+			ring_size : 256 (0x100)
+			nb_queues : 1
+		}
+		dev_capa : 20 (0x14)
+	}
+	effective_offload : {
+		rx : 9621f:RTE_ETH_RX_OFFLOAD_VLAN_STRIP|RTE_ETH_RX_OFFLOAD_IPV4_CKSUM|RTE_ETH_RX_OFFLOAD_UDP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_LRO|RTE_ETH_RX_OFFLOAD_VLAN_FILTER|RTE_ETH_RX_OFFLOAD_SCATTER|RTE_ETH_RX_OFFLOAD_TIMESTAMP|RTE_ETH_RX_OFFLOAD_KEEP_CRC|RTE_ETH_RX_OFFLOAD_RSS_HASH
+		tx : c96af:RTE_ETH_TX_OFFLOAD_VLAN_INSERT|RTE_ETH_TX_OFFLOAD_IPV4_CKSUM|RTE_ETH_TX_OFFLOAD_UDP_CKSUM|RTE_ETH_TX_OFFLOAD_TCP_CKSUM|RTE_ETH_TX_OFFLOAD_TCP_TSO|RTE_ETH_TX_OFFLOAD_OUTER_IPV4_CKSUM|RTE_ETH_TX_OFFLOAD_VXLAN_TNL_TSO|RTE_ETH_TX_OFFLOAD_GRE_TNL_TSO|RTE_ETH_TX_OFFLOAD_GENEVE_TNL_TSO|RTE_ETH_TX_OFFLOAD_MULTI_SEGS|RTE_ETH_TX_OFFLOAD_UDP_TNL_TSO|RTE_ETH_TX_OFFLOAD_IP_TNL_TSO
+	}
+	tx_rings : 65535 (0xffff)
+	rx_meta_features : 3:RTE_ETH_RX_METADATA_USER_FLAG|RTE_ETH_RX_METADATA_USER_MARK
+	features : 0000000000000000000000000000000000000000000000000000000000000110
+}	will run on socket 0 - 11 cores : [26 17 18 19 20 21 22 23 24 25 16 ]
+[debug]  ens8191f1np1 port: 0 - requested offloads : 9621f:RTE_ETH_RX_OFFLOAD_VLAN_STRIP|RTE_ETH_RX_OFFLOAD_IPV4_CKSUM|RTE_ETH_RX_OFFLOAD_UDP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_CKSUM|RTE_ETH_RX_OFFLOAD_TCP_LRO|RTE_ETH_RX_OFFLOAD_VLAN_FILTER|RTE_ETH_RX_OFFLOAD_SCATTER|RTE_ETH_RX_OFFLOAD_TIMESTAMP|RTE_ETH_RX_OFFLOAD_KEEP_CRC|RTE_ETH_RX_OFFLOAD_RSS_HASH
+[debug]  clock frequency 156250449 hz
+[debug]  port 0 : 192.168.13.32 - link speed 25 Gbps
+[debug]  starting up 1 rx queue(s)...
+[info]  192.168.13.31 : EC:0D:9A:98:B2:D2
+[debug]  creating sockperf packets memory pool : 2048 cache_size : 16
+[info]  warming up...
+[info]  performing latency test ...
+[info]  rtt = 5.493 us.
+[info]  rtt = 6.297 us.
+[info]  rtt = 4.817 us.
+[info]  rtt = 5.048 us.
+[info]  rtt = 4.864 us.
+[info]  rtt = 5.099 us.
+[info]  rtt = 6.133 us.
+[info]  rtt = 5.018 us.
+[info]  rtt = 5.477 us.
+[info]  rtt = 6.43 us.
+[info]  rtt = 5.38 us.
+[info]  rtt = 5.04 us.
+[info]  rtt = 5.022 us.
+[info]  rtt = 4.93 us.
+[info]  rtt = 5.188 us.
+[info]  rtt = 5.184 us.
+[info]  rtt = 4.938 us.
+[info]  rtt = 5.018 us.
+[info]  rtt = 4.948 us.
+[info]  rtt = 5.105 us.
+[info]  rtt = 6.037 us.
+[info]  rtt = 5.072 us.
+[info]  rtt = 5.209 us.
+[info]  rtt = 4.996 us.
+[info]  rtt = 5.608 us.
+[info]  rtt = 5.017 us.
+[info]  rtt = 4.936 us.
+[info]  rtt = 5.168 us.
+[info]  rtt = 5.45 us.
+[info]  rtt = 4.959 us.
+[info]  rtt = 4.889 us.
+[info]  rtt = 5.345 us.
+[info]  rtt = 5.01 us.
+[info]  rtt = 4.988 us.
+[info]  rtt = 5.879 us.
+[info]  rtt = 5.226 us.
+[info]  rtt = 5.08 us.
+[info]  rtt = 4.946 us.
+[info]  rtt = 5.053 us.
+[info]  rtt = 5.086 us.
+[info]  rtt = 15.253 us.
+[info]  rtt = 6.979 us.
+[info]  rtt = 4.831 us.
+[info]  rtt = 5.152 us.
+[info]  rtt = 4.939 us.
+[info]  rtt = 5.018 us.
+[info]  rtt = 5.088 us.
+[info]  rtt = 5.937 us.
+[info]  rtt = 5.775 us.
+[info]  rtt = 5.577 us.
+[info]  rtt = 5.135 us.
+[info]  rtt = 5.273 us.
+[info]  rtt = 5.097 us.
+[info]  rtt = 5.332 us.
+[info]  rtt = 4.903 us.
+[info]  rtt = 5.093 us.
+[info]  rtt = 5.09 us.
+[info]  rtt = 5.089 us.
+[info]  rtt = 5.561 us.
+[info]  rtt = 6.992 us.
+[info]  rtt = 5.068 us.
+[info]  rtt = 6.14 us.
+[info]  rtt = 5.353 us.
+[info]  rtt = 6.227 us.
+[info]  rtt = 5.916 us.
+[info]  rtt = 5.404 us.
+[info]  rtt = 5.173 us.
+[info]  rtt = 4.893 us.
+[info]  rtt = 5.224 us.
+[info]  rtt = 5.169 us.
+[info]  rtt = 5.094 us.
+[info]  rtt = 6.156 us.
+[info]  rtt = 6.897 us.
+[info]  rtt = 5.57 us.
+[info]  rtt = 6.817 us.
+[info]  rtt = 5.491 us.
+[info]  rtt = 5.571 us.
+[info]  rtt = 5.541 us.
+[info]  rtt = 6.431 us.
+[info]  rtt = 6.141 us.
+[info]  rtt = 5.294 us.
+[info]  rtt = 6.274 us.
+[info]  rtt = 5.583 us.
+[info]  rtt = 5.252 us.
+[info]  rtt = 5.045 us.
+[info]  rtt = 5.094 us.
+[info]  rtt = 5.019 us.
+[info]  rtt = 6.071 us.
+[info]  rtt = 4.812 us.
+[info]  rtt = 5.962 us.
+[info]  rtt = 6.734 us.
+[info]  rtt = 5.015 us.
+[info]  rtt = 5.271 us.
+[info]  rtt = 5.871 us.
+[info]  rtt = 5.062 us.
+[info]  rtt = 5.055 us.
+[info]  rtt = 5.218 us.
+[info]  rtt = 5.335 us.
+[info]  rtt = 5.774 us.
+[info]  rtt = 5.728 us.
+[info]  rtt = 7.188 us.
+[info]  rtt = 5.058 us.
+[info]  rtt = 5.083 us.
+[info]  rtt = 5.333 us.
+[info]  rtt = 5.227 us.
+[info]  rtt = 5.679 us.
+[info]  rtt = 5.997 us.
+[info]  rtt = 5.052 us.
+[info]  rtt = 5.317 us.
+[info]  rtt = 4.961 us.
+[info]  rtt = 5.226 us.
+[info]  rtt = 7.722 us.
+[info]  rtt = 5.983 us.
+[info]  rtt = 6.186 us.
+[info]  rtt = 5.225 us.
+[info]  rtt = 6.215 us.
+[info]  rtt = 5.199 us.
+[info]  rtt = 5.025 us.
+[info]  rtt = 4.96 us.
+[info]  rtt = 5.786 us.
+[info]  rtt = 5.197 us.
+[info]  rtt = 5.194 us.
+[info]  rtt = 5.269 us.
+[info]  rtt = 5.29 us.
+[info]  rtt = 5.213 us.
+[info]  rtt = 5.008 us.
+[info]  rtt = 5.09 us.
+[info]  rtt = 5.039 us.
+[info]  rtt = 5.184 us.
+[info]  rtt = 4.963 us.
+[info]  rtt = 6.846 us.
+[info]  rtt = 6.076 us.
+[info]  rtt = 5.998 us.
+[info]  rtt = 5.127 us.
+[info]  rtt = 5.31 us.
+[info]  rtt = 5.025 us.
+[info]  rtt = 5.133 us.
+[info]  rtt = 5.49 us.
+[info]  rtt = 5.284 us.
+[info]  rtt = 6.14 us.
+[info]  rtt = 5.13 us.
+[info]  rtt = 5.688 us.
+[info]  rtt = 5.056 us.
+[info]  rtt = 5.619 us.
+[info]  rtt = 5.454 us.
+[info]  rtt = 6.124 us.
+[info]  rtt = 4.919 us.
+[info]  rtt = 5.743 us.
+[info]  rtt = 5 us.
+[info]  rtt = 5.078 us.
+[info]  rtt = 5.089 us.
+[info]  rtt = 5.213 us.
+[info]  rtt = 5.048 us.
+[info]  rtt = 5.164 us.
+[info]  rtt = 5.167 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 5.182 us.
+[info]  rtt = 5.123 us.
+[info]  rtt = 5.939 us.
+[info]  rtt = 4.995 us.
+[info]  rtt = 5.089 us.
+[info]  rtt = 5.104 us.
+[info]  rtt = 5.389 us.
+[info]  rtt = 4.986 us.
+[info]  rtt = 5.149 us.
+[info]  rtt = 5.254 us.
+[info]  rtt = 5.117 us.
+[info]  rtt = 5.152 us.
+[info]  rtt = 5 us.
+[info]  rtt = 5.476 us.
+[info]  rtt = 4.881 us.
+[info]  rtt = 5.451 us.
+[info]  rtt = 6.06 us.
+[info]  rtt = 4.985 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 5.43 us.
+[info]  rtt = 5.25 us.
+[info]  rtt = 5.178 us.
+[info]  rtt = 4.981 us.
+[info]  rtt = 5.48 us.
+[info]  rtt = 5.095 us.
+[info]  rtt = 5.216 us.
+[info]  rtt = 5.009 us.
+[info]  rtt = 5.175 us.
+[info]  rtt = 5.378 us.
+[info]  rtt = 5.058 us.
+[info]  rtt = 5.981 us.
+[info]  rtt = 5.164 us.
+[info]  rtt = 5.22 us.
+[info]  rtt = 5.095 us.
+[info]  rtt = 6.063 us.
+[info]  rtt = 5.024 us.
+[info]  rtt = 5.274 us.
+[info]  rtt = 5.139 us.
+[info]  rtt = 5.238 us.
+[info]  rtt = 4.987 us.
+[info]  rtt = 5.398 us.
+[info]  rtt = 5.281 us.
+[info]  rtt = 5.591 us.
+[info]  rtt = 5.914 us.
+[info]  rtt = 5.106 us.
+[info]  rtt = 5.529 us.
+[info]  rtt = 6.03 us.
+[info]  rtt = 5.028 us.
+[info]  rtt = 5.182 us.
+[info]  rtt = 5.349 us.
+[info]  rtt = 5.147 us.
+[info]  rtt = 5.318 us.
+[info]  rtt = 5.179 us.
+[info]  rtt = 5.349 us.
+[info]  rtt = 6.804 us.
+[info]  rtt = 4.989 us.
+[info]  rtt = 5.944 us.
+[info]  rtt = 6.069 us.
+[info]  rtt = 4.922 us.
+[info]  rtt = 6.661 us.
+[info]  rtt = 5.7 us.
+[info]  rtt = 5.619 us.
+[info]  rtt = 5.075 us.
+[info]  rtt = 5.381 us.
+[info]  rtt = 5.092 us.
+[info]  rtt = 5.416 us.
+[info]  rtt = 5.261 us.
+[info]  rtt = 4.832 us.
+[info]  rtt = 5.217 us.
+[info]  rtt = 5.293 us.
+[info]  rtt = 5.904 us.
+[info]  rtt = 5.352 us.
+[info]  rtt = 5.099 us.
+[info]  rtt = 5.44 us.
+[info]  rtt = 5.1 us.
+[info]  rtt = 5.339 us.
+[info]  rtt = 5.252 us.
+[info]  rtt = 5.623 us.
+[info]  rtt = 5.497 us.
+[info]  rtt = 5.073 us.
+[info]  rtt = 5.39 us.
+[info]  rtt = 4.932 us.
+[info]  rtt = 5.4 us.
+[info]  rtt = 5.682 us.
+[info]  rtt = 5.512 us.
+[info]  rtt = 5.377 us.
+[info]  rtt = 5.009 us.
+[info]  rtt = 5.316 us.
+[info]  rtt = 5.033 us.
+[info]  rtt = 5.156 us.
+[info]  rtt = 5.527 us.
+[info]  rtt = 5.225 us.
+[info]  rtt = 5.582 us.
+[info]  rtt = 5.321 us.
+[info]  rtt = 5.611 us.
+[info]  rtt = 5.263 us.
+[info]  rtt = 5.594 us.
+[info]  rtt = 5.386 us.
+[info]  rtt = 4.855 us.
+[info]  rtt = 5.544 us.
+[info]  rtt = 5.025 us.
+[info]  rtt = 5.459 us.
+[info]  rtt = 5.054 us.
+[info]  rtt = 5.081 us.
+[info]  rtt = 5.183 us.
+[info]  rtt = 5.009 us.
+[info]  rtt = 5.15 us.
+[info]  rtt = 4.886 us.
+[info]  rtt = 5.333 us.
+[info]  rtt = 5.364 us.
+[info]  rtt = 5.458 us.
+[info]  rtt = 5.311 us.
+[info]  rtt = 5.21 us.
+[info]  rtt = 5.449 us.
+[info]  rtt = 5.051 us.
+[info]  rtt = 5.645 us.
+[info]  rtt = 5.664 us.
+[info]  rtt = 4.912 us.
+[info]  rtt = 5.323 us.
+[info]  rtt = 5.062 us.
+[info]  rtt = 5.193 us.
+[info]  rtt = 5.123 us.
+[info]  rtt = 5.214 us.
+[info]  rtt = 5.372 us.
+[info]  rtt = 5.01 us.
+[info]  rtt = 5.3 us.
+[info]  rtt = 4.973 us.
+[info]  rtt = 5.319 us.
+[info]  rtt = 5.089 us.
+[info]  rtt = 5.009 us.
+[info]  rtt = 5.23 us.
+[info]  rtt = 5.113 us.
+[info]  rtt = 5.241 us.
+[info]  rtt = 5 us.
+[info]  rtt = 4.943 us.
+[info]  rtt = 5.212 us.
+[info]  rtt = 4.993 us.
+[info]  rtt = 5.193 us.
+[info]  rtt = 4.981 us.
+[info]  rtt = 5.487 us.
+[info]  rtt = 5.114 us.
+[info]  rtt = 5.907 us.
+[info]  rtt = 5.281 us.
+[info]  rtt = 5.073 us.
+[info]  rtt = 5.723 us.
+[info]  rtt = 5.011 us.
+[info]  rtt = 5.378 us.
+[info]  rtt = 5.516 us.
+[info]  rtt = 5.09 us.
+[info]  rtt = 5.435 us.
+[info]  rtt = 5.275 us.
+[info]  rtt = 5.505 us.
+[info]  rtt = 5.168 us.
+[info]  rtt = 5.318 us.
+[info]  rtt = 5.326 us.
+[info]  rtt = 5.233 us.
+[info]  rtt = 5.294 us.
+[info]  rtt = 4.983 us.
+[info]  rtt = 5.137 us.
+[info]  rtt = 5.051 us.
+[info]  rtt = 5.166 us.
+[info]  rtt = 5.25 us.
+[info]  rtt = 4.925 us.
+[info]  rtt = 5.574 us.
+[info]  rtt = 5.274 us.
+[info]  rtt = 5.153 us.
+[info]  rtt = 5.15 us.
+[info]  rtt = 5.267 us.
+[info]  rtt = 5.304 us.
+[info]  rtt = 4.978 us.
+[info]  rtt = 5.391 us.
+[info]  rtt = 5.149 us.
+[info]  rtt = 5.35 us.
+[info]  rtt = 5.488 us.
+[info]  rtt = 4.975 us.
+[info]  rtt = 5.308 us.
+[info]  rtt = 5.111 us.
+[info]  rtt = 5.393 us.
+[info]  rtt = 5.366 us.
+[info]  rtt = 5.655 us.
+[info]  rtt = 5.296 us.
+[info]  rtt = 5.143 us.
+[info]  rtt = 5.394 us.
+[info]  rtt = 5.109 us.
+[info]  rtt = 5.34 us.
+[info]  rtt = 5.303 us.
+[info]  rtt = 5.026 us.
+[info]  rtt = 5.323 us.
+[info]  rtt = 5.454 us.
+[info]  rtt = 5.167 us.
+[info]  rtt = 4.85 us.
+[info]  rtt = 5.324 us.
+[info]  rtt = 5.153 us.
+[info]  rtt = 4.959 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 6.497 us.
+[info]  rtt = 5.055 us.
+[info]  rtt = 5.258 us.
+[info]  rtt = 5.132 us.
+[info]  rtt = 5.03 us.
+[info]  rtt = 5.079 us.
+[info]  rtt = 5.109 us.
+[info]  rtt = 5.093 us.
+[info]  rtt = 5.13 us.
+[info]  rtt = 5.198 us.
+[info]  rtt = 5.697 us.
+[info]  rtt = 5.011 us.
+[info]  rtt = 5.421 us.
+[info]  rtt = 5.259 us.
+[info]  rtt = 5.193 us.
+[info]  rtt = 5.23 us.
+[info]  rtt = 5.662 us.
+[info]  rtt = 5.727 us.
+[info]  rtt = 5.571 us.
+[info]  rtt = 7.177 us.
+[info]  rtt = 6.174 us.
+[info]  rtt = 5.229 us.
+[info]  rtt = 5.062 us.
+[info]  rtt = 5.301 us.
+[info]  rtt = 4.868 us.
+[info]  rtt = 5.159 us.
+[info]  rtt = 4.943 us.
+[info]  rtt = 5.238 us.
+[info]  rtt = 5.125 us.
+[info]  rtt = 6.299 us.
+[info]  rtt = 5.238 us.
+[info]  rtt = 5.422 us.
+[info]  rtt = 5.184 us.
+[info]  rtt = 5.156 us.
+[info]  rtt = 5.403 us.
+[info]  rtt = 5.099 us.
+[info]  rtt = 5.158 us.
+[info]  rtt = 5.287 us.
+[info]  rtt = 5.99 us.
+[info]  rtt = 5.29 us.
+[info]  rtt = 5.208 us.
+[info]  rtt = 5.111 us.
+[info]  rtt = 5.349 us.
+[info]  rtt = 5.285 us.
+[info]  rtt = 5.521 us.
+[info]  rtt = 5.412 us.
+[info]  rtt = 5.153 us.
+[info]  rtt = 4.923 us.
+[info]  rtt = 5.745 us.
+[info]  rtt = 5.317 us.
+[info]  rtt = 5.262 us.
+[info]  rtt = 5.72 us.
+[info]  rtt = 5.218 us.
+[info]  rtt = 5.335 us.
+[info]  rtt = 5.349 us.
+[info]  rtt = 5.07 us.
+[info]  rtt = 4.994 us.
+[info]  rtt = 5.151 us.
+[info]  rtt = 5.491 us.
+[info]  rtt = 5.22 us.
+[info]  rtt = 5.344 us.
+[info]  rtt = 5.438 us.
+[info]  rtt = 5.236 us.
+[info]  rtt = 5.121 us.
+[info]  rtt = 5.03 us.
+[info]  rtt = 5.213 us.
+[info]  rtt = 5.057 us.
+[info]  rtt = 5.256 us.
+[info]  rtt = 5.327 us.
+[info]  rtt = 5.374 us.
+[info]  rtt = 5.334 us.
+[info]  rtt = 5.084 us.
+[info]  rtt = 5.404 us.
+[info]  rtt = 5.158 us.
+[info]  rtt = 5.827 us.
+[info]  rtt = 5.11 us.
+[info]  rtt = 5.288 us.
+[info]  rtt = 4.983 us.
+[info]  rtt = 5.201 us.
+[info]  rtt = 5.303 us.
+[info]  rtt = 8.014 us.
+[info]  rtt = 5.301 us.
+[info]  rtt = 4.994 us.
+[info]  rtt = 5.093 us.
+[info]  rtt = 5.218 us.
+[info]  rtt = 5.304 us.
+[info]  rtt = 5.306 us.
+[info]  rtt = 5.142 us.
+[info]  rtt = 5.525 us.
+[info]  rtt = 5.027 us.
+[info]  rtt = 5.3 us.
+[info]  rtt = 5.326 us.
+[info]  rtt = 5.539 us.
+[info]  rtt = 5.251 us.
+[info]  rtt = 5.04 us.
+[info]  rtt = 5.375 us.
+[info]  rtt = 5 us.
+[info]  rtt = 5.15 us.
+[info]  rtt = 5.261 us.
+[info]  rtt = 5.041 us.
+[info]  rtt = 5.377 us.
+[info]  rtt = 5.038 us.
+[info]  rtt = 5.5 us.
+[info]  rtt = 5.253 us.
+[info]  rtt = 5.112 us.
+[info]  rtt = 5.37 us.
+[info]  rtt = 5.1 us.
+[info]  rtt = 5.341 us.
+[info]  rtt = 5.181 us.
+[info]  rtt = 5.183 us.
+[info]  rtt = 5.48 us.
+[info]  rtt = 4.979 us.
+[info]  rtt = 5.926 us.
+[info]  rtt = 4.959 us.
+[info]  rtt = 5.385 us.
+[info]  rtt = 5.175 us.
+[info]  rtt = 5.561 us.
+[info]  rtt = 5.336 us.
+[info]  rtt = 5.231 us.
+[info]  rtt = 5.711 us.
+[info]  rtt = 10.086 us.
+[info]  rtt = 5.051 us.
+[info]  rtt = 5.323 us.
+[info]  rtt = 5.168 us.
+[info]  rtt = 5.093 us.
+[info]  rtt = 5.613 us.
+[info]  rtt = 4.987 us.
+[info]  rtt = 5.215 us.
+[info]  rtt = 4.909 us.
+[info]  rtt = 5.726 us.
+[info]  rtt = 5.01 us.
+[info]  rtt = 5.136 us.
+[info]  rtt = 5.328 us.
+[info]  rtt = 4.902 us.
+[info]  rtt = 5.38 us.
+[info]  rtt = 4.951 us.
+[info]  rtt = 5.424 us.
+[info]  rtt = 5.172 us.
+[info]  rtt = 8.11 us.
+[info]  rtt = 5.529 us.
+[info]  rtt = 5.038 us.
+[info]  rtt = 5.882 us.
+[info]  rtt = 5.108 us.
+[info]  rtt = 5.068 us.
+[info]  rtt = 5.72 us.
+[info]  rtt = 4.879 us.
+[info]  rtt = 5.299 us.
+[info]  rtt = 4.833 us.
+[info]  rtt = 5.398 us.
+[info]  rtt = 5.164 us.
+[info]  rtt = 5.133 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 5.057 us.
+[info]  rtt = 5.598 us.
+[info]  rtt = 5.151 us.
+[info]  rtt = 5.399 us.
+[info]  rtt = 5.217 us.
+[info]  rtt = 5.244 us.
+[info]  rtt = 9.199 us.
+[info]  rtt = 5.734 us.
+[info]  rtt = 6.5 us.
+[info]  rtt = 5.273 us.
+[info]  rtt = 5.191 us.
+[info]  rtt = 6.222 us.
+[info]  rtt = 5.215 us.
+[info]  rtt = 6.633 us.
+[info]  rtt = 5.122 us.
+[info]  rtt = 5.441 us.
+[info]  rtt = 5.185 us.
+[info]  rtt = 5.231 us.
+[info]  rtt = 5.747 us.
+[info]  rtt = 5.834 us.
+[info]  rtt = 5.53 us.
+[info]  rtt = 6.597 us.
+[info]  rtt = 6.027 us.
+[info]  rtt = 6.121 us.
+[info]  rtt = 5.461 us.
+[info]  rtt = 6.052 us.
+[info]  rtt = 5.877 us.
+[info]  rtt = 7.076 us.
+[info]  rtt = 5.452 us.
+[info]  rtt = 5.158 us.
+[info]  rtt = 5.416 us.
+[info]  rtt = 6.322 us.
+[info]  rtt = 5.536 us.
+[info]  rtt = 4.922 us.
+[info]  rtt = 5.212 us.
+[info]  rtt = 5.358 us.
+[info]  rtt = 5.387 us.
+[info]  rtt = 6.63 us.
+[info]  rtt = 5.05 us.
+[info]  rtt = 5.152 us.
+[info]  rtt = 5.506 us.
+[info]  rtt = 5.315 us.
+[info]  rtt = 5.387 us.
+[info]  rtt = 4.957 us.
+[info]  rtt = 5.245 us.
+[info]  rtt = 4.952 us.
+[info]  rtt = 4.989 us.
+[info]  rtt = 5.285 us.
+[info]  rtt = 4.971 us.
+[info]  rtt = 10.25 us.
+[info]  rtt = 6.696 us.
+[info]  rtt = 5.355 us.
+[info]  rtt = 5.598 us.
+[info]  rtt = 5.356 us.
+[info]  rtt = 5.103 us.
+[info]  rtt = 5.57 us.
+[info]  rtt = 5.819 us.
+[info]  rtt = 5.266 us.
+[info]  rtt = 5.283 us.
+[info]  rtt = 5.353 us.
+[info]  rtt = 6.495 us.
+[info]  rtt = 6.796 us.
+[info]  rtt = 5.484 us.
+[info]  rtt = 5.304 us.
+[info]  rtt = 5.273 us.
+[info]  rtt = 5.167 us.
+[info]  rtt = 5.439 us.
+[info]  rtt = 5.225 us.
+[info]  rtt = 4.965 us.
+[info]  rtt = 5.41 us.
+[info]  rtt = 5.254 us.
+[info]  rtt = 5.423 us.
+[info]  rtt = 5.267 us.
+[info]  rtt = 5.121 us.
+[info]  rtt = 5.399 us.
+[info]  rtt = 5.458 us.
+[info]  rtt = 6.387 us.
+[info]  rtt = 6.801 us.
+[info]  rtt = 5.542 us.
+[info]  rtt = 5.341 us.
+[info]  rtt = 6.424 us.
+[info]  rtt = 5.257 us.
+[info]  rtt = 5.344 us.
+[info]  rtt = 5.196 us.
+[info]  rtt = 5.185 us.
+[info]  rtt = 5.346 us.
+[info]  rtt = 5.6 us.
+[info]  rtt = 5.148 us.
+[info]  rtt = 5.622 us.
+[info]  rtt = 5.39 us.
+[info]  rtt = 5.428 us.
+[info]  rtt = 5.829 us.
+[info]  rtt = 5.222 us.
+[info]  rtt = 5.395 us.
+[info]  rtt = 5.946 us.
+[info]  rtt = 5.403 us.
+[info]  rtt = 5.461 us.
+[info]  rtt = 5.132 us.
+[info]  rtt = 5.292 us.
+[info]  rtt = 4.963 us.
+[info]  rtt = 5.24 us.
+[info]  rtt = 5.326 us.
+[info]  rtt = 5.196 us.
+[info]  rtt = 5.608 us.
+[info]  rtt = 5.19 us.
+[info]  rtt = 5.273 us.
+[info]  rtt = 5.011 us.
+[info]  rtt = 5.391 us.
+[info]  rtt = 5.131 us.
+[info]  rtt = 5.797 us.
+[info]  rtt = 9.018 us.
+[info]  rtt = 5.301 us.
+[info]  rtt = 5.557 us.
+[info]  rtt = 5.069 us.
+[info]  rtt = 6.635 us.
+[info]  rtt = 5.078 us.
+[info]  rtt = 5.363 us.
+[info]  rtt = 5.221 us.
+[info]  rtt = 5.065 us.
+[info]  rtt = 5.17 us.
+[info]  rtt = 5.726 us.
+[info]  rtt = 5.328 us.
+[info]  rtt = 5.205 us.
+[info]  rtt = 5.605 us.
+[info]  rtt = 5.238 us.
+[info]  rtt = 5.011 us.
+[info]  rtt = 5.1 us.
+[info]  rtt = 5.229 us.
+[info]  rtt = 5.3 us.
+[info]  rtt = 5.185 us.
+[info]  rtt = 4.922 us.
+[info]  rtt = 5.443 us.
+[info]  rtt = 5.116 us.
+[info]  rtt = 5.216 us.
+[info]  rtt = 5.381 us.
+[info]  rtt = 5.62 us.
+[info]  rtt = 5.442 us.
+[info]  rtt = 5.248 us.
+[info]  rtt = 5.292 us.
+[info]  rtt = 6.596 us.
+[info]  rtt = 4.99 us.
+[info]  rtt = 5.261 us.
+[info]  rtt = 5.24 us.
+[info]  rtt = 5.184 us.
+[info]  rtt = 4.984 us.
+[info]  rtt = 5.027 us.
+[info]  rtt = 5.405 us.
+[info]  rtt = 5.13 us.
+[info]  rtt = 5.221 us.
+[info]  rtt = 5.159 us.
+[info]  rtt = 5.365 us.
+[info]  rtt = 5.069 us.
+[info]  rtt = 5.488 us.
+[info]  rtt = 5.072 us.
+[info]  rtt = 5.241 us.
+[info]  rtt = 5.169 us.
+[info]  rtt = 5.094 us.
+[info]  rtt = 6.54 us.
+[info]  rtt = 5.297 us.
+[info]  rtt = 5.182 us.
+[info]  rtt = 5.303 us.
+[info]  rtt = 7.786 us.
+[info]  rtt = 5.427 us.
+[info]  rtt = 5.014 us.
+[info]  rtt = 5.139 us.
+[info]  rtt = 6.451 us.
+[info]  rtt = 5.348 us.
+[info]  rtt = 5.14 us.
+[info]  rtt = 5.201 us.
+[info]  rtt = 5.187 us.
+[info]  rtt = 5.511 us.
+[info]  rtt = 5.335 us.
+[info]  rtt = 5.154 us.
+[info]  rtt = 5.15 us.
+[info]  rtt = 5.967 us.
+[info]  rtt = 5.338 us.
+[info]  rtt = 5.354 us.
+[info]  rtt = 5.335 us.
+[info]  rtt = 5.743 us.
+[info]  rtt = 5.142 us.
+[info]  rtt = 5.211 us.
+[info]  rtt = 5.104 us.
+[info]  rtt = 5.119 us.
+[info]  rtt = 5.496 us.
+[info]  rtt = 5.668 us.
+[info]  rtt = 5.281 us.
+[info]  rtt = 5.087 us.
+[info]  rtt = 5.187 us.
+[info]  rtt = 5.27 us.
+[info]  rtt = 5.371 us.
+[info]  rtt = 5.107 us.
+[info]  rtt = 5.079 us.
+[info]  rtt = 5.247 us.
+[info]  rtt = 5.282 us.
+[info]  rtt = 5.391 us.
+[info]  rtt = 5.199 us.
+[info]  rtt = 5.299 us.
+[info]  rtt = 5.225 us.
+[info]  rtt = 5.23 us.
+[info]  rtt = 5.16 us.
+[info]  rtt = 5.496 us.
+[info]  rtt = 5.365 us.
+[info]  rtt = 5.2 us.
+[info]  rtt = 5.357 us.
+[info]  rtt = 5.109 us.
+[info]  rtt = 5.6 us.
+[info]  rtt = 5.243 us.
+[info]  rtt = 5.467 us.
+[info]  rtt = 5.436 us.
+[info]  rtt = 5.36 us.
+[info]  rtt = 5.454 us.
+[info]  rtt = 4.98 us.
+[info]  rtt = 5.355 us.
+[info]  rtt = 4.898 us.
+[info]  rtt = 5.52 us.
+[info]  rtt = 5.122 us.
+[info]  rtt = 5.593 us.
+[info]  rtt = 5.227 us.
+[info]  rtt = 5.275 us.
+[info]  rtt = 5.154 us.
+[info]  rtt = 5.105 us.
+[info]  rtt = 5.094 us.
+[info]  rtt = 5.281 us.
+[info]  rtt = 5.209 us.
+[info]  rtt = 5.422 us.
+[info]  rtt = 5.133 us.
+[info]  rtt = 5.315 us.
+[info]  rtt = 5.085 us.
+[info]  rtt = 5.097 us.
+[info]  rtt = 5.114 us.
+[info]  rtt = 4.941 us.
+[info]  rtt = 5.398 us.
+[info]  rtt = 5.322 us.
+[info]  rtt = 5.108 us.
+[info]  rtt = 5.412 us.
+[info]  rtt = 5.23 us.
+[info]  rtt = 5.367 us.
+[info]  rtt = 5.231 us.
+[info]  rtt = 5.168 us.
+[info]  rtt = 5.188 us.
+[info]  rtt = 5.213 us.
+[info]  rtt = 5.229 us.
+[info]  rtt = 5.359 us.
+[info]  rtt = 5.352 us.
+[info]  rtt = 5.232 us.
+[info]  rtt = 5.205 us.
+[info]  rtt = 5.166 us.
+[info]  rtt = 5.018 us.
+[info]  rtt = 5.492 us.
+[info]  rtt = 5.082 us.
+[info]  rtt = 5.299 us.
+[info]  rtt = 4.829 us.
+[info]  rtt = 5.424 us.
+[info]  rtt = 4.976 us.
+[info]  rtt = 5.069 us.
+[info]  rtt = 5.254 us.
+[info]  rtt = 5.019 us.
+[info]  rtt = 5.466 us.
+[info]  rtt = 5.283 us.
+[info]  rtt = 5.241 us.
+[info]  rtt = 5.32 us.
+[info]  rtt = 5.233 us.
+[info]  rtt = 5.262 us.
+[info]  rtt = 5.195 us.
+[info]  rtt = 5.282 us.
+[info]  rtt = 5.044 us.
+[info]  rtt = 5.164 us.
+[info]  rtt = 4.993 us.
+[info]  rtt = 5.131 us.
+[info]  rtt = 5.321 us.
+[info]  rtt = 5.062 us.
+[info]  rtt = 5.278 us.
+[info]  rtt = 5.035 us.
+[info]  rtt = 5.24 us.
+[info]  rtt = 5.487 us.
+[info]  rtt = 5.218 us.
+[info]  rtt = 5.328 us.
+[info]  rtt = 5.338 us.
+[info]  rtt = 5.25 us.
+[info]  rtt = 5.085 us.
+[info]  rtt = 5.167 us.
+[info]  rtt = 5.195 us.
+[info]  rtt = 5.992 us.
+[info]  rtt = 5.445 us.
+[info]  rtt = 5.005 us.
+[info]  rtt = 5.256 us.
+[info]  rtt = 5.443 us.
+[info]  rtt = 5.064 us.
+[info]  rtt = 5.337 us.
+[info]  rtt = 5.12 us.
+[info]  rtt = 5.371 us.
+[info]  rtt = 5.077 us.
+[info]  rtt = 5.475 us.
+[info]  rtt = 5.087 us.
+[info]  rtt = 5.21 us.
+[info]  rtt = 6.329 us.
+[info]  rtt = 5.525 us.
+[info]  rtt = 5.18 us.
+[info]  rtt = 5.225 us.
+[info]  rtt = 4.998 us.
+[info]  rtt = 5.15 us.
+[info]  rtt = 5.031 us.
+[info]  rtt = 5.299 us.
+[info]  rtt = 5.125 us.
+[info]  rtt = 5.171 us.
+[info]  rtt = 5.421 us.
+[info]  rtt = 5.921 us.
+[info]  rtt = 5.237 us.
+[info]  rtt = 5.099 us.
+[info]  rtt = 5.168 us.
+[info]  rtt = 5.209 us.
+[info]  rtt = 5.184 us.
+[info]  rtt = 5.522 us.
+[info]  rtt = 5.47 us.
+[info]  rtt = 5.344 us.
+[info]  rtt = 5.836 us.
+[info]  rtt = 5.261 us.
+[info]  rtt = 5.53 us.
+[info]  rtt = 6.472 us.
+[info]  rtt = 5.441 us.
+[info]  rtt = 5.268 us.
+[info]  rtt = 5.142 us.
+[info]  rtt = 5.321 us.
+[info]  rtt = 5.163 us.
+[info]  rtt = 5.457 us.
+[info]  rtt = 5.261 us.
+[info]  rtt = 5.194 us.
+[info]  rtt = 4.857 us.
+[info]  rtt = 5.354 us.
+[info]  rtt = 5.83 us.
+[info]  rtt = 5.505 us.
+[info]  rtt = 5.337 us.
+[info]  rtt = 5.292 us.
+[info]  rtt = 5.029 us.
+[info]  rtt = 5.194 us.
+[info]  rtt = 5.725 us.
+[info]  rtt = 5.07 us.
+[info]  rtt = 5.469 us.
+[info]  rtt = 5.384 us.
+[info]  rtt = 5.294 us.
+[info]  rtt = 5.096 us.
+[info]  rtt = 5.355 us.
+[info]  rtt = 5.394 us.
+[info]  rtt = 5.101 us.
+[info]  rtt = 5.688 us.
+[info]  rtt = 5.193 us.
+[info]  rtt = 5.232 us.
+[info]  rtt = 5.831 us.
+[info]  rtt = 4.975 us.
+[info]  rtt = 5.423 us.
+[info]  rtt = 5.22 us.
+[info]  rtt = 4.988 us.
+[info]  rtt = 5.25 us.
+[info]  rtt = 5.094 us.
+[info]  rtt = 5.109 us.
+[info]  rtt = 5.034 us.
+[info]  rtt = 5.294 us.
+[info]  rtt = 5.194 us.
+[info]  rtt = 5.554 us.
+[info]  rtt = 5.073 us.
+[info]  rtt = 5.26 us.
+[info]  rtt = 5.047 us.
+[info]  rtt = 5.048 us.
+[info]  rtt = 5.003 us.
+[info]  rtt = 5.125 us.
+[info]  rtt = 5.116 us.
+[info]  rtt = 5.26 us.
+[info]  rtt = 5.269 us.
+[info]  rtt = 5.445 us.
+[info]  rtt = 5.096 us.
+[info]  rtt = 5.65 us.
+[info]  rtt = 5.228 us.
+[info]  rtt = 5.37 us.
+[info]  rtt = 5.35 us.
+[info]  rtt = 5.041 us.
+[info]  rtt = 5.589 us.
+[info]  rtt = 5.628 us.
+[info]  rtt = 5.121 us.
+[info]  rtt = 5.317 us.
+[info]  rtt = 5.519 us.
+[info]  rtt = 5.346 us.
+[info]  rtt = 5.162 us.
+[info]  rtt = 5.179 us.
+[info]  rtt = 5.116 us.
+[info]  rtt = 4.967 us.
+[info]  rtt = 5.156 us.
+[info]  rtt = 5.14 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 5.372 us.
+[info]  rtt = 5.126 us.
+[info]  rtt = 5.179 us.
+[info]  rtt = 5.146 us.
+[info]  rtt = 5.973 us.
+[info]  rtt = 5.025 us.
+[info]  rtt = 5.234 us.
+[info]  rtt = 5.034 us.
+[info]  rtt = 5.119 us.
+[info]  rtt = 4.979 us.
+[info]  rtt = 5.103 us.
+[info]  rtt = 5.335 us.
+[info]  rtt = 5.137 us.
+[info]  rtt = 5.114 us.
+[info]  rtt = 5.669 us.
+[info]  rtt = 5.083 us.
+[info]  rtt = 5.198 us.
+[info]  rtt = 5.207 us.
+[info]  rtt = 5.3 us.
+[info]  rtt = 5.272 us.
+[info]  rtt = 5.543 us.
+[info]  rtt = 5.33 us.
+[info]  rtt = 5.264 us.
+[info]  rtt = 5.316 us.
+[info]  rtt = 5.061 us.
+[info]  rtt = 5.481 us.
+[info]  rtt = 5.112 us.
+[info]  rtt = 5.333 us.
+[info]  rtt = 5.022 us.
+[info]  rtt = 5.378 us.
+[info]  rtt = 5.349 us.
+[info]  rtt = 4.9 us.
+[info]  rtt = 5.325 us.
+[info]  rtt = 5.174 us.
+[info]  rtt = 5.22 us.
+[info]  rtt = 5.143 us.
+[info]  rtt = 5.013 us.
+[info]  rtt = 5.044 us.
+[info]  rtt = 5.391 us.
+[info]  rtt = 5.079 us.
+[info]  rtt = 5.196 us.
+[info]  rtt = 5.582 us.
+[info]  rtt = 5.162 us.
+[info]  rtt = 5.311 us.
+[info]  rtt = 5.504 us.
+[info]  rtt = 5.082 us.
+[info]  rtt = 5.764 us.
+[info]  rtt = 5.063 us.
+[info]  rtt = 5.266 us.
+[info]  rtt = 5.101 us.
+[info]  rtt = 5.461 us.
+[info]  rtt = 5.228 us.
+[info]  rtt = 5.55 us.
+[info]  rtt = 5.312 us.
+[info]  rtt = 5.211 us.
+[info]  rtt = 5.321 us.
+[info]  rtt = 5.407 us.
+[info]  rtt = 5.149 us.
+[info]  rtt = 5.322 us.
+[info]  rtt = 5.344 us.
+[info]  rtt = 5.247 us.
+[info]  rtt = 5.282 us.
+[info]  rtt = 5.132 us.
+[info]  rtt = 5.405 us.
+[info]  rtt = 5.088 us.
+[info]  rtt = 5.079 us.
+[info]  rtt = 5.587 us.
+[info]  rtt = 5.158 us.
+[info]  rtt = 6.782 us.
+[info]  rtt = 6.057 us.
+[info]  rtt = 5.296 us.
+[info]  rtt = 6.3 us.
+[info]  rtt = 5.427 us.
+[info]  rtt = 5.422 us.
+[info]  rtt = 6.796 us.
+[info]  rtt = 5.238 us.
+[info]  rtt = 5.303 us.
+[info]  rtt = 5.275 us.
+[info]  rtt = 7.134 us.
+[info]  rtt = 4.936 us.
+[info]  rtt = 5.564 us.
+[info]  rtt = 6.081 us.
+[info]  rtt = 5.852 us.
+[info]  rtt = 5.372 us.
+[info]  rtt = 6.156 us.
+[info]  rtt = 5.123 us.
+[info]  rtt = 6.713 us.
+[info]  rtt = 6.521 us.
+[info]  rtt = 5.806 us.
+[info]  rtt = 6.646 us.
+[info]  rtt = 5.291 us.
+[info]  rtt = 11.639 us.
+[info]  rtt = 5.541 us.
+[info]  rtt = 5.569 us.
+[info]  rtt = 5.215 us.
+[info]  rtt = 5.235 us.
+[info]  rtt = 5.06 us.
+[info]  rtt = 5.237 us.
+[info]  rtt = 5.109 us.
+[info]  rtt = 7.339 us.
+[info]  rtt = 4.977 us.
+[info]  rtt = 5.353 us.
+[info]  rtt = 4.983 us.
+[info]  rtt = 5.047 us.
+[info]  rtt = 5.374 us.
+[info]  rtt = 5.153 us.
+[info]  rtt = 7.949 us.
+[info]  rtt = 5.088 us.
+[info]  rtt = 5.12 us.
+[info]  rtt = 5.042 us.
+[info]  rtt = 5.604 us.
+[info]  rtt = 9.502 us.
+[info]  rtt = 5.229 us.
+[info]  rtt = 5.061 us.
+[info]  rtt = 5.345 us.
+[info]  rtt = 5.296 us.
+[info]  rtt = 5.606 us.
+[info]  rtt = 5.431 us.
+[info]  rtt = 6.344 us.
+[info]  rtt = 5.096 us.
+[info]  rtt = 5.249 us.
+[info]  rtt = 4.986 us.
+[info]  rtt = 6.472 us.
+[info]  rtt = 5.355 us.
+[info]  rtt = 5.247 us.
+[info]  rtt = 5.103 us.
+[info]  rtt = 5.172 us.
+[info]  rtt = 5.075 us.
+[info]  rtt = 5.196 us.
+[info]  rtt = 5.216 us.
+[info]  rtt = 5.213 us.
+[info]  rtt = 6.858 us.
+[info]  rtt = 5.105 us.
+[info]  average: 5.39379 us. median: 5.2515 us. mode: 5.291000 us. min: 4.812 us. max: 15.253 us. per 1024 samples, packet size: 652 bytes / payload size: 610 bytes 
+[debug]  
+	Total number of successfully received packets: 1103
+	Total number of successfully transmitted packets: 1047
+	Total number of successfully received bytes: 691573
+	Total number of successfully transmitted bytes: 682644
+	missed : 0 from : 1103 - 0%
+	Total number of erroneous received packets: 0
+	Total number of failed transmitted packets: 0
+	Total number of Rx mbuf allocation failures: 0
+		0 Total number of queue Rx packets : 1103
+		0 Total number of successfully received queue bytes : 691573
+		0 Total number of queue packets received that are dropped : 0
+		0 Total number of queue Tx packets : 1047
+		0 Total number of successfully transmitted queue bytes : 682644
